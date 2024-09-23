@@ -1,9 +1,10 @@
-import Image from "next/image"
+import Image from "next/image";
+import { logo1 } from "../../assets/logo";
 
 const Logo = () => {
   return (
     <div>
-        <Image src="/logo.png" width={100} height={100}/>
+        <Image src={logo1} width={50} height={50} alt="logo"/>
     </div>
   )
 }
