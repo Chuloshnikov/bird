@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar/Navbar";
+import Header from "@/components/navbar/Header";
 
 const font = Outfit({ subsets: ['latin']})
 
@@ -20,7 +20,7 @@ export default function RootLayout({
       <body
         className={`${font.className}`}
       >
-        <Navbar/>
+        <Header/>
         {children}
       </body>
     </html>

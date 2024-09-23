@@ -1,67 +1,83 @@
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 
 import {
     Sheet,
-    SheetClose,
     SheetContent,
     SheetDescription,
-    SheetFooter,
     SheetHeader,
     SheetTitle,
     SheetTrigger,
-  } from "@/components/ui/sheet";
-
+  } from "@/components/ui/sheet"
+  
   import { AlignJustify } from "lucide-react";
 
   import Link from "next/link";
 
+
 const ActionButton = () => {
-  return (
+    return ( 
     <div>
         <div className="md:hidden">
             <Sheet>
                 <SheetTrigger>
-                    <AlignJustify/>
+                    <AlignJustify />
                 </SheetTrigger>
                 <SheetContent>
                     <SheetHeader>
                         <SheetDescription>
                             <div className="flex flex-col space-y-4 items-start w-full text-lg text-black mt-10">
                                 <Link
-                                href="/">
-                                    Sign in
+                                href="/"
+                                >
+                                    Sign in 
                                 </Link>
                                 <Link
-                                href="/">
-                                    Get Started
+                                href="/"
+                                >
+                                   Get Started
                                 </Link>
                                 <Link
-                                href="/">
+                                href="/"
+                                >
                                     Pricing
                                 </Link>
                                 <Link
-                                href="/">
-                                    About
+                                href="/"
+                                >
+                                    Contact
                                 </Link>
+                                <Link
+                                href="/"
+                                >
+                                   About
+                                </Link>
+                           
+                       
                             </div>
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>
             </Sheet>
-        </div>
-        <div className="hidden md:flex md:space-x-4">
-                <Button 
+            </div>
+
+
+            <div className="hidden md:flex md:space-x-4">
+                <Button
                 className="text-md"
                 variant="ghost"
                 >
                     Sign in
                 </Button>
-                <Button className="text-md bg-blue-500">
+                <Button
+                className="text-md bg-blue-500">
                     Get Started
                 </Button>
-            </div>
-    </div>
-  )
-}
 
+            </div>
+ 
+
+    </div> 
+    );
+}
+ 
 export default ActionButton;
