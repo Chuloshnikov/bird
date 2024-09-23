@@ -1,5 +1,6 @@
 import Carousel from "@/components/carousel";
-import HeroSection from "@/components/hero/HeroSection";
+import FeaturesSection from "@/components/home/FeaturesSection";
+import HeroSection from "@/components/home/HeroSection";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
    <div>
     <HeroSection/>
     <Carousel/>
+    <FeaturesSection/>
    </div>
   );
 }

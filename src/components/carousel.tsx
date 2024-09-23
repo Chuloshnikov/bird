@@ -75,10 +75,10 @@ const Carousel = () => {
 
     return (
         <section>
-            <div className='items-center justify-center flex font-bold md:pb-10 px-10 bg-gradient-to-r from-blue-500 to-green-300 bg-clip-text text-transparent'>
+            <div className='items-center justify-center flex text-3xl pt-20 font-bold md:pb-10 px-10 bg-gradient-to-r from-blue-500 to-green-300 bg-clip-text text-transparent'>
                 More then 100+ brands have built their business with Bird Software
             </div>
-            <div className='grid grid-cols-3 p-4 md:flex overflow-x-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]'>
+            <div className='p-4 w-full flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]'>
                 <AnimatePresence
                 custom={currentImageIndex}>
                     {logos.map((image, index) => (
