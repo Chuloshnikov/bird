@@ -9,16 +9,13 @@ import { cn } from '@/lib/utils';
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 
 import Logo from './Logo';
-import Image from 'next/image';
 
 const components: { title: string, description: string }[] = [
   {
