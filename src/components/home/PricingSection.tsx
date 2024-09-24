@@ -23,7 +23,7 @@ const features = [
 
 const PricingSection = () => {
     return ( 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center px-10">
             <div className="text-4xl  text-center md:text-6xl  font-bold bg-gradient-to-r from-black to-gray-500  bg-clip-text text-transparent md:pb-10">
                 Pricing
                 <div className="text-2xl text-center md:text-4xl font-bold md:py-10">
@@ -37,7 +37,6 @@ const PricingSection = () => {
                 {features.map((feature, index) => (
                     <div 
                     key={index}
-                    className="p-4"
                     >
                         <div  
                         className="grid justify-center items-center gap-4 border rounded-xl p-4 max-w-96 max-h-96 ">
