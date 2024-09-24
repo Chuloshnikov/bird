@@ -28,18 +28,15 @@ const PricingSection = () => {
                 Pricing
                 <div className="text-2xl text-center md:text-4xl font-bold md:py-10">
                     Simple and transparent pricing plans for all businesses.
-    
                 </div>
-    
             </div>
-    
-            <div className="md:flex">
+            <div className="md:flex gap-4">
                 {features.map((feature, index) => (
                     <div 
                     key={index}
                     >
                         <div  
-                        className="grid justify-center items-center gap-4 border rounded-xl p-4 max-w-96 max-h-96 ">
+                        className="grid justify-center items-center gap-4 border rounded-xl p-4 max-w-96 max-h-114">
                             <div className="text-2xl text-black pb-4">{feature.name}</div>
                             <div className="text-xl ">{feature.price}</div>
                             <div className="text-xl ">{feature.fees}</div>
