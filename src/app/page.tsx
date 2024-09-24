@@ -1,4 +1,5 @@
 import Carousel from "@/components/carousel";
+import ContentManagementSystemSection from "@/components/home/ContentManagementSystemSection";
 import EcommerceSection from "@/components/home/EcommerceSection";
 import FeaturesSection from "@/components/home/FeaturesSection";
 import HeroSection from "@/components/home/HeroSection";
@@ -11,6 +12,7 @@ export default function Home() {
     <Carousel/>
     <FeaturesSection/>
     <EcommerceSection/>
+    <ContentManagementSystemSection/>
    </div>
   );
 }
