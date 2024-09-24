@@ -19,6 +19,7 @@ const EcommerceSection = () => {
                       src="/assets/icon-store.png"
                       width={70}
                       height={70}
+                      alt="store"
                       className='jbject-contain h-20 w-20 items-center justify-center flex'
                       />
                       <p>
@@ -32,6 +33,7 @@ const EcommerceSection = () => {
                       src="/assets/icon-product.png"
                       width={70}
                       height={70}
+                      alt="product"
                       className='object-contain h-20 w-20 items-center justify-center flex'
                       />
                       <p>
@@ -45,9 +47,10 @@ const EcommerceSection = () => {
                         <div className="text-lg flex items-center gap-5" >
                             <Image
                             src="/assets/icon-analytics.png"
-                            alt="feature-1"
                             width={70} 
                             height={70}
+                            alt="analytics"
+                            className='object-contain h-20 w-20 items-center justify-center flex'
                             />
                             <div>
                             Gain valuable insights into your customers and products with
@@ -60,9 +63,10 @@ const EcommerceSection = () => {
                         <div className="text-lg flex items-center gap-5" >
                             <Image
                             src="/assets/icon-shield.png"
-                            alt="feature-1"
                             width={70} 
                             height={70}
+                             alt="shield"
+                            className='object-contain h-20 w-20 items-center justify-center flex'
                             />
                             <div>
                             Best in class security to protect your data and your customers.
