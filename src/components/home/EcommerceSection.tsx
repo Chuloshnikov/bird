@@ -19,7 +19,7 @@ const EcommerceSection = () => {
                       src="/assets/icon-store.png"
                       width={70}
                       height={70}
-                      alt="store"
+                      alt="store icon"
                       className='object-contain h-20 w-20 items-center justify-center flex'
                       />
                       <p>
@@ -33,7 +33,7 @@ const EcommerceSection = () => {
                       src="/assets/icon-product.png"
                       width={70}
                       height={70}
-                      alt="product"
+                      alt="product icon"
                       className='object-contain h-20 w-20 items-center justify-center flex'
                       />
                       <p>
@@ -49,7 +49,7 @@ const EcommerceSection = () => {
                             src="/assets/icon-analytics.png"
                             width={70} 
                             height={70}
-                            alt="analytics"
+                            alt="analytics icon"
                             className='object-contain h-20 w-20 items-center justify-center flex'
                             />
                             <div>
@@ -65,7 +65,7 @@ const EcommerceSection = () => {
                             src="/assets/icon-shield.png"
                             width={70} 
                             height={70}
-                            alt="shield"
+                             alt="shield icon"
                             className='object-contain h-20 w-20 items-center justify-center flex'
                             />
                             <div>
