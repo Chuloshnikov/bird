@@ -4,6 +4,7 @@ import EcommerceSection from "@/components/home/EcommerceSection";
 import FeaturesSection from "@/components/home/FeaturesSection";
 import HeroSection from "@/components/home/HeroSection";
 import PricingSection from "@/components/home/PricingSection";
+import StartBuildSection from "@/components/home/StartBuildSection";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <EcommerceSection/>
     <ContentManagementSystemSection/>
     <PricingSection/>
+    <StartBuildSection/>
    </div>
   );
 }
