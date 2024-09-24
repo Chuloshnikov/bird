@@ -3,6 +3,7 @@ import ContentManagementSystemSection from "@/components/home/ContentManagementS
 import EcommerceSection from "@/components/home/EcommerceSection";
 import FeaturesSection from "@/components/home/FeaturesSection";
 import HeroSection from "@/components/home/HeroSection";
+import PricingSection from "@/components/home/PricingSection";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <FeaturesSection/>
     <EcommerceSection/>
     <ContentManagementSystemSection/>
+    <PricingSection/>
    </div>
   );
 }
