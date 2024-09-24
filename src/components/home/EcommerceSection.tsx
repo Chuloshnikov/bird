@@ -20,7 +20,7 @@ const EcommerceSection = () => {
                       width={70}
                       height={70}
                       alt="store"
-                      className='jbject-contain h-20 w-20 items-center justify-center flex'
+                      className='object-contain h-20 w-20 items-center justify-center flex'
                       />
                       <p>
                         Choose from a veriety of store templates to get started. And customize your store to fit your brand
@@ -65,7 +65,7 @@ const EcommerceSection = () => {
                             src="/assets/icon-shield.png"
                             width={70} 
                             height={70}
-                             alt="shield"
+                            alt="shield"
                             className='object-contain h-20 w-20 items-center justify-center flex'
                             />
                             <div>
